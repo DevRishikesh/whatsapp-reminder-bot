@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-reminder-bot",
+  "version": "1.0.0",
+  "description": "A WhatsApp bot that sets reminders.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0",
+    "chrono-node": "^2.7.5",
+    "node-schedule": "^2.1.1"
+  }
+}
